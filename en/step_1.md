@@ -1,20 +1,38 @@
+--- no-print ---
+
+This is the **Scratch 2** version of the project. There is also a [Scratch 3 version of the project](https://projects.raspberrypi.org/en/projects/memory).
+
+--- /no-print ---
+
 ## Introduction
 
-Add project description here. What will learners be making?
+In this project, you will create a memory game in which you have to memorise and repeat a random sequence of colours!
 
 ### What you will make
 
 --- no-print ---
-Add instructions for using the embedded content here.
+Click on the green flag to start. Watch the sequence of colours shown by the dancer's dress and listen to the accompanying drum beats, then repeat the colours back to her. If you get the colours' order wrong, it's game over!
 
+    
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/258514878/?autostart=false" frameborder="0" allowfullscreen></iframe>
+<img src="images/colour-final.png">
 </div>
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![screenshot of finished game](images/screenshot.png)
 --- /print-only ---
+
+--- collapse ---
+---
+title: What you will learn
+---
+- How to add sound to your Scratch project
+- How to create and use lists to store data
+- How to create and use custom blocks for repeating code
+
+--- /collapse ---
 
 --- collapse ---
 ---
@@ -22,28 +40,11 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
++ A computer capable of running Scratch 2.0
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Two or three learning objectives
-+ ...should go here
-
+Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/){:target="_blank"} or [offline](https://scratch.mit.edu/scratch2download/){:target="_blank"})
 --- /collapse ---
 
 --- collapse ---
@@ -51,8 +52,12 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+--- no-print ---
 
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/memory-scratch2/print){:target="_blank"}.
+
+--- /no-print ---
+
+You can [download the completed project here](http://rpf.io/p/memory-get).
 
 --- /collapse ---
