@@ -74,11 +74,7 @@ end
 --- /hints ---
 --- /task ---
 
---- task ---
-
 You need to add this new code to the character sprite for the other three colours too!
-
---- /task ---
 
 Can you see that the 'Game over' code for each of the four colours is exactly the same?
 
