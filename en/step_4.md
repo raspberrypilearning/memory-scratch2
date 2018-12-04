@@ -100,7 +100,7 @@ end
 --- /task ---
 
 --- task ---
-+ Duplicate the code you used to make your character sprite respond to the message `red`{:class="blockevents"}. Change the duplicated code so that it sends the message `blue`{:class="blockevents"}.
+Duplicate the code you used to make your character sprite respond to the message `red`{:class="blockevents"}. Change the duplicated code so that it sends the message `blue`{:class="blockevents"}.
 --- /task ---
 
 When the sprite responds to the message `blue`{:class="blockevents"}, which bit of code should stay the same, and which bit should change? Remember that each colour has a corresponding number.
