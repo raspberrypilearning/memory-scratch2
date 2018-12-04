@@ -44,7 +44,7 @@ title: What you will need
 
 ### Software
 
-Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/){:target="_blank"} or [offline](https://scratch.mit.edu/scratch2download/){:target="_blank"})
+Scratch 2.0 [offline](https://rpf.io/scratchoff){:target="_blank"}
 --- /collapse ---
 
 --- collapse ---
@@ -58,6 +58,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 --- /no-print ---
 
-You can [download the completed project here](http://rpf.io/p/memory-get).
+You can [download the completed project here](http://rpf.io/p/en/memory-scratch2-get).
 
 --- /collapse ---
