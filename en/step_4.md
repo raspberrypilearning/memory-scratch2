@@ -8,9 +8,11 @@ Add four new sprites to your project to represent the four buttons.
 - Put the sprites in the same order on the stage as the costumes: red, blue, green, yellow
 
 ![screenshot](images/colour-drums.png)
+
 --- /task ---
 
 --- task ---
+
 Add code to the red sprite so that, when the sprite is clicked, it `broadcasts`{:class="blockevents"} a 'red' message to the character sprite:
 
 ![red-drum](images/red_drum.png)
@@ -24,19 +26,28 @@ Add code to the red sprite so that, when the sprite is clicked, it `broadcasts`{
 A `broadcast`{:class="blockevents"} is like a message announced over a loudspeaker, which you can for example hear in schools or supermarkets. All of the sprites can hear the `broadcast`{:class="blockevents"}, but only the sprite whose job it is to respond will do something.
 
 --- task ---
+
 Add similar code to the blue, green, and yellow sprites to make them `broadcast`{:class="blockevents"} messages about their own colour.
+
 --- no-print ---
+
 Here is an easy way to copy code from one sprite to another. Change the `broadcast`{:class="blockevents"} message of each sprite to match the colour of the sprite.
 ![Duplicate the code](images/broadcast-duplicate.gif)
+
 --- /no-print ---
 
 --- print-only ---
+
 You can duplicate a whole code script from one sprite to another by dragging the script from the Scripts area to the sprite in the Sprites Panel.
+
 --- /print-only ---
+
 --- /task ---
 
 Do you remember that the `broadcast`{:class="blockevents"} is like a loudspeaker message? You will add code to make it the character sprite's job to respond to the `broadcast`{:class="blockevents"} messages.
+
 --- task ---
+
 When your character sprite receives the message `red`{:class="blockevents"}, the code should check whether the number `1` is at the start of the `sequence`{:class="blockdata"} list (which means that `red`{:class="blockevents"} is the next colour in the sequence).
 
 If `1` is at the start of the list, the code should remove the number from the list, because the player remembered the correct colour. Otherwise it's game over, and the code needs to `stop all`{:class="blockcontrol"} to end the game.
@@ -55,6 +66,7 @@ end
 --- /task ---
 
 --- task ---
+
 Add to the code you just wrote so that a drum beat also plays when the character sprite receives the correct `broadcast`{:class="blockevents"}.
 
 --- hints ---
@@ -77,6 +89,7 @@ play drum (item (1 v) of [sequence v]) for (0.25) beats
 ```
 --- /hint ---
 --- /hints ---
+
 --- /task ---
 
 --- task ---
