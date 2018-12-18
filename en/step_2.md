@@ -6,7 +6,7 @@ First create a character that can display a random sequence of colours.
 
 Open a new Scratch project in the offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff(https://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
 
 --- /task ---
 
