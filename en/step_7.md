@@ -3,23 +3,7 @@
 ### Make more blocks
 Do you see any other code that is the same for all four buttons?
 
-```blocks
-when I receive [red v]
-if <(item (1 v) of [sequence v])=[1]> then
-	play drum (item (1 v) of [sequence v]) for (0.25) beats
-	delete (1 v) of [sequence v]
-else
-	Game Over :: custom
-end
-
-when I receive [blue v]
-if <(item (1 v) of [sequence v])=[1]> then
-	play drum (item (1 v) of [sequence v]) for (0.25) beats
-	delete (1 v) of [sequence v]
-else
-	Game over :: custom
-end
-```
+![blocks_1545215568_9821339](images/blocks_1545215568_9821339.png)
 
 Can you make another custom block that all buttons can use?
 
