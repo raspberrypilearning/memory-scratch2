@@ -127,7 +127,7 @@ if <(item (1 v) of [sequence v])=[1]> then
 	play drum (item (1 v) of [sequence v]) for (0.25) beats
 	delete (1 v) of [sequence v]
 else
-	Game over
+	Game over :: custom
 end
 ```
 --- /task ---
@@ -149,7 +149,7 @@ if <(item (1 v) of [sequence v])=[1]> then
 	play drum (item (1 v) of [sequence v]) for (0.25) beats
 	delete (1 v) of [sequence v]
 else
-	Game over
+	Game over :: custom
 end
 ```
 --- /task ---
