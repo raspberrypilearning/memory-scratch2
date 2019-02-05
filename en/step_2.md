@@ -52,7 +52,10 @@ Each colour has a different number, so you can choose a random colour by randoml
 Add this code to the character sprite to choose a random number and add it to `sequence`{:class="blockdata"}:
 
 ![ballerina](images/ballerina.png)
-![blocks_1545215542_850332](images/blocks_1545215542_850332.png)
+```blocks
+when flag clicked
+add (pick random (1) to (4)) to [sequence v]
+```
 --- /task ---
 
 --- task ---
@@ -73,7 +76,13 @@ This is what your code should look like:
 
 ![ballerina](images/ballerina.png)
 
-![blocks_1545215544_775684](images/blocks_1545215544_775684.png)
+```blocks
+when flag clicked
+delete (all v) of [sequence v]
+repeat (5)
+	add (pick random (1) to (4)) to [sequence v]
+end
+```
 --- /hint --- --- /hints ---
 --- /task ---
 
@@ -82,5 +91,8 @@ Each time a number gets added to the list, the character should change its costu
 
 ![ballerina](images/ballerina.png)
 
-![blocks_1545215545_922948](images/blocks_1545215545_922948.png)
+```blocks
+switch costume to (item (last v) of [sequence v])
+wait (1) secs
+```
 --- /task ---

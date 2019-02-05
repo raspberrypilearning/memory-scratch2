@@ -20,14 +20,19 @@ Instead of always creating a sequence of five colours, you now want the `score`{
 Change the character's `repeat`{:class="blockcontrol"} loop (for creating the colour sequence) to repeat `score`{:class="blockdata"} times:
 
 ![sprite](images/ballerina.png)
-![blocks_1545215557_8125215](images/blocks_1545215557_8125215.png)
+```blocks
+repeat (score)
+end
+```
 --- /task ---
 
 --- task ---
 If the player repeats the correct sequence, you should add `1` to `score`{:class="blockdata"}, and doing so increases the length of the next sequence. Add the following block to the character's code __at the point you know the sequence is correct__:
 
 ![sprite](images/ballerina.png)
-![blocks_1545215558_9333782](images/blocks_1545215558_9333782.png)
+```blocks
+change [score v] by (1)
+```
 
 --- hints ---
 --- hint ---
@@ -42,7 +47,21 @@ Finally, add a `forever`{:class="blockcontrol"} loop around the code that genera
 
 ![ballerina](images/ballerina.png)
 
-![blocks_1545215560_0215292](images/blocks_1545215560_0215292.png)
+```blocks
+when flag clicked
+set [score v] to [3]
+forever
+	delete (all v) of [sequence v]
+	repeat (score)
+		add (pick random (1) to (4)) to [sequence v]
+		switch costume to (item (last v) of [sequence v]
+		wait (1) secs
+	end
+	wait until < (length of [sequence v]) = [0]>
+	broadcast [won v] and wait
+	change [score v] by (1)
+end
+```
 --- /task ---
 
 --- task ---
